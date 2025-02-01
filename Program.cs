@@ -12,22 +12,22 @@ namespace Wk3Ex3
         {
             //declarations
             string myString = "";
-            
+            string value = "aeiou";
+            int vowelCount = 0;
+
             //Enter a string
             Console.WriteLine("Enter a string: ");
             //
             myString = Console.ReadLine();
 
+
             //
-            Console.WriteLine(myString.IndexOf("a"));
+            for (int i = 0; i < myString.Length; i++)
+            {
 
 
 
-
-
-
-
-
+            }
         }
     }
 }
