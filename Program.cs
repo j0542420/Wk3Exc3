@@ -17,7 +17,8 @@ namespace Wk3Ex3
 
             //Enter a string
             Console.WriteLine("Enter a string: ");
-            //
+
+            //user inputs a string
             myString = Console.ReadLine();
 
             //
