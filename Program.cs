@@ -12,7 +12,7 @@ namespace Wk3Ex3
         {
             //declarations
             string myString = "";
-            string value = "aeiou";
+            string[] vowels = { "a", "e", "i", "o", "u" };
             int vowelCount = 0;
 
             //Enter a string
@@ -20,13 +20,10 @@ namespace Wk3Ex3
             //
             myString = Console.ReadLine();
 
-
             //
-            for (int i = 0; i < myString.Length; i++)
+            for (int i = 0; i < vowels.Length; i++)
             {
-
-
-
+                Console.WriteLine($"The number of vowels in the string is: {vowelCount}");
             }
         }
     }
